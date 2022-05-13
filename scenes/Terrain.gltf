@@ -1,0 +1,3180 @@
+{
+  "extensionsUsed": [
+    "CVTOOLS_babylon_mesh",
+    "CVTOOLS_left_handed",
+    "CVTOOLS_unity_metadata",
+    "KHR_texture_transform"
+  ],
+  "extensionsRequired": [
+    "CVTOOLS_babylon_mesh",
+    "CVTOOLS_left_handed"
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC3",
+      "max": [
+        333.33334350585938,
+        101.27622222900391,
+        333.33334350585938
+      ],
+      "min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC3",
+      "max": [
+        0.8957253098487854,
+        1.0,
+        0.8582342267036438
+      ],
+      "min": [
+        -0.89862281084060669,
+        0.39659902453422546,
+        -0.883406937122345
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.91216427087783813,
+        0.079749390482902527,
+        -1.0
+      ],
+      "min": [
+        0.40982437133789063,
+        -0.89812248945236206,
+        -0.055177092552185059,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC2",
+      "max": [
+        0.3333333432674408,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.66666662693023682
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC2",
+      "max": [
+        0.3333333432674408,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.66666662693023682
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5125,
+      "count": 173400,
+      "type": "SCALAR",
+      "max": [
+        29240.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC3",
+      "max": [
+        333.33334350585938,
+        179.511962890625,
+        666.66668701171875
+      ],
+      "min": [
+        0.0,
+        0.0,
+        333.33334350585938
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC3",
+      "max": [
+        0.99218392372131348,
+        1.0,
+        0.883752703666687
+      ],
+      "min": [
+        -0.99497807025909424,
+        0.099618144333362579,
+        -0.95145559310913086
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.99502521753311157,
+        0.41176301240921021,
+        -1.0
+      ],
+      "min": [
+        0.099623486399650574,
+        -0.99280905723571777,
+        -0.501662015914917,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC2",
+      "max": [
+        0.3333333432674408,
+        0.66666662693023682
+      ],
+      "min": [
+        0.0,
+        0.33333331346511841
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC2",
+      "max": [
+        0.3333333432674408,
+        0.66666662693023682
+      ],
+      "min": [
+        0.0,
+        0.33333331346511841
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5125,
+      "count": 173400,
+      "type": "SCALAR",
+      "max": [
+        29240.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC3",
+      "max": [
+        333.33334350585938,
+        0.0,
+        1000.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        666.66668701171875
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC3",
+      "max": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "min": [
+        0.0,
+        0.99999994039535522,
+        0.0
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "min": [
+        1.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC2",
+      "max": [
+        0.3333333432674408,
+        0.33333331346511841
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC2",
+      "max": [
+        0.3333333432674408,
+        0.33333331346511841
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5125,
+      "count": 173400,
+      "type": "SCALAR",
+      "max": [
+        29240.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC3",
+      "max": [
+        666.66668701171875,
+        76.162246704101563,
+        333.33334350585938
+      ],
+      "min": [
+        333.33334350585938,
+        0.0,
+        0.0
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC3",
+      "max": [
+        0.73794716596603394,
+        1.0,
+        0.47473034262657166
+      ],
+      "min": [
+        -0.89706838130950928,
+        0.43133634328842163,
+        -0.84380501508712769
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.90123480558395386,
+        0.0886562317609787,
+        -1.0
+      ],
+      "min": [
+        0.43333104252815247,
+        -0.84628891944885254,
+        -0.19520667195320129,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 21,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC2",
+      "max": [
+        0.66666668653488159,
+        1.0
+      ],
+      "min": [
+        0.3333333432674408,
+        0.66666662693023682
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 22,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC2",
+      "max": [
+        0.66666668653488159,
+        1.0
+      ],
+      "min": [
+        0.3333333432674408,
+        0.66666662693023682
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 23,
+      "componentType": 5125,
+      "count": 173400,
+      "type": "SCALAR",
+      "max": [
+        29240.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 24,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC3",
+      "max": [
+        666.66668701171875,
+        113.49317932128906,
+        666.66668701171875
+      ],
+      "min": [
+        333.33334350585938,
+        0.0,
+        333.33334350585938
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 25,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC3",
+      "max": [
+        0.97641807794570923,
+        1.0,
+        0.83745676279067993
+      ],
+      "min": [
+        -0.97483181953430176,
+        0.20640645921230316,
+        -0.88039010763168335
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 26,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.97486782073974609,
+        0.15422980487346649,
+        -1.0
+      ],
+      "min": [
+        0.20689095556735992,
+        -0.97836399078369141,
+        -0.19984392821788788,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 27,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC2",
+      "max": [
+        0.66666668653488159,
+        0.66666662693023682
+      ],
+      "min": [
+        0.3333333432674408,
+        0.33333331346511841
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 28,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC2",
+      "max": [
+        0.66666668653488159,
+        0.66666662693023682
+      ],
+      "min": [
+        0.3333333432674408,
+        0.33333331346511841
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 29,
+      "componentType": 5125,
+      "count": 173400,
+      "type": "SCALAR",
+      "max": [
+        29240.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 30,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC3",
+      "max": [
+        666.66668701171875,
+        113.46245574951172,
+        1000.0
+      ],
+      "min": [
+        333.33334350585938,
+        0.0,
+        666.66668701171875
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 31,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC3",
+      "max": [
+        0.961260199546814,
+        1.0,
+        0.88134700059890747
+      ],
+      "min": [
+        -0.97112804651260376,
+        0.23852385580539703,
+        -0.3982962965965271
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 32,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.97113615274429321,
+        0.26365330815315247,
+        -1.0
+      ],
+      "min": [
+        0.238525852560997,
+        -0.96335041522979736,
+        -0.24926924705505371,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 33,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC2",
+      "max": [
+        0.66666668653488159,
+        0.33333331346511841
+      ],
+      "min": [
+        0.3333333432674408,
+        0.0
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 34,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC2",
+      "max": [
+        0.66666668653488159,
+        0.33333331346511841
+      ],
+      "min": [
+        0.3333333432674408,
+        0.0
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 35,
+      "componentType": 5125,
+      "count": 173400,
+      "type": "SCALAR",
+      "max": [
+        29240.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 36,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC3",
+      "max": [
+        1000.0,
+        87.5659408569336,
+        333.33334350585938
+      ],
+      "min": [
+        666.66668701171875,
+        0.0,
+        0.0
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 37,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC3",
+      "max": [
+        0.89253449440002441,
+        1.0,
+        0.868817925453186
+      ],
+      "min": [
+        -0.94653517007827759,
+        0.26691210269927979,
+        -0.85751956701278687
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 38,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.96246534585952759,
+        0.12617188692092896,
+        -1.0
+      ],
+      "min": [
+        0.27140426635742188,
+        -0.93152976036071777,
+        -0.12287098914384842,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 39,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.66666668653488159,
+        0.66666662693023682
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 40,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.66666668653488159,
+        0.66666662693023682
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 41,
+      "componentType": 5125,
+      "count": 173400,
+      "type": "SCALAR",
+      "max": [
+        29240.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 42,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC3",
+      "max": [
+        1000.0,
+        10.424721717834473,
+        666.66668701171875
+      ],
+      "min": [
+        666.66668701171875,
+        0.0,
+        333.33334350585938
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 43,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC3",
+      "max": [
+        0.52839577198028564,
+        1.0,
+        0.44030484557151794
+      ],
+      "min": [
+        -0.3215840756893158,
+        0.84899574518203735,
+        -0.11112795770168304
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 44,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.33945393562316895,
+        0.022315490990877151,
+        -1.0
+      ],
+      "min": [
+        0.84899747371673584,
+        -0.5283968448638916,
+        -0.023545391857624054,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 45,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        0.66666662693023682
+      ],
+      "min": [
+        0.66666668653488159,
+        0.33333331346511841
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 46,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        0.66666662693023682
+      ],
+      "min": [
+        0.66666668653488159,
+        0.33333331346511841
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 47,
+      "componentType": 5125,
+      "count": 173400,
+      "type": "SCALAR",
+      "max": [
+        29240.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 48,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC3",
+      "max": [
+        1000.0,
+        4.1628389358520508,
+        1000.0
+      ],
+      "min": [
+        666.66668701171875,
+        0.0,
+        666.66668701171875
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 49,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC3",
+      "max": [
+        0.49073114991188049,
+        1.0,
+        0.092978492379188538
+      ],
+      "min": [
+        0.0,
+        0.87028944492340088,
+        -0.0025574583560228348
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 50,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.0,
+        0.00050355587154626846,
+        -1.0
+      ],
+      "min": [
+        0.87106531858444214,
+        -0.49116715788841248,
+        -0.00010457583266543224,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 51,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        0.33333331346511841
+      ],
+      "min": [
+        0.66666668653488159,
+        0.0
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 52,
+      "componentType": 5126,
+      "count": 29241,
+      "type": "VEC2",
+      "max": [
+        1.0,
+        0.33333331346511841
+      ],
+      "min": [
+        0.66666668653488159,
+        0.0
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 53,
+      "componentType": 5125,
+      "count": 173400,
+      "type": "SCALAR",
+      "max": [
+        29240.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    },
+    {
+      "bufferView": 54,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "name": "vertices"
+    },
+    {
+      "bufferView": 55,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC3",
+      "max": [
+        0.99997496604919434,
+        1.0,
+        0.9999769926071167
+      ],
+      "min": [
+        -0.99997496604919434,
+        -1.0,
+        -0.99997353553771973
+      ],
+      "name": "normals"
+    },
+    {
+      "bufferView": 56,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.056131001561880112,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.065983392298221588,
+        -1.0,
+        -1.0
+      ],
+      "name": "tangents"
+    },
+    {
+      "bufferView": 57,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        0.99833369255065918,
+        0.98237103223800659
+      ],
+      "min": [
+        -0.00092136859893798828,
+        0.024108767509460449
+      ],
+      "name": "uv"
+    },
+    {
+      "bufferView": 58,
+      "componentType": 5126,
+      "count": 515,
+      "type": "VEC2",
+      "max": [
+        1.0000003576278687,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.34614646434783936
+      ],
+      "name": "uv2"
+    },
+    {
+      "bufferView": 59,
+      "componentType": 5125,
+      "count": 2304,
+      "type": "SCALAR",
+      "max": [
+        514.0
+      ],
+      "min": [
+        0.0
+      ],
+      "name": "indices"
+    }
+  ],
+  "asset": {
+    "generator": "Babylon (2022.1.0b14)",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "Terrain.bin",
+      "byteLength": 21017920
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 350892
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 350892,
+      "byteLength": 350892
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 701784,
+      "byteLength": 467856
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1169640,
+      "byteLength": 233928
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1403568,
+      "byteLength": 233928
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1637496,
+      "byteLength": 693600
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2331096,
+      "byteLength": 350892
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2681988,
+      "byteLength": 350892
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3032880,
+      "byteLength": 467856
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3500736,
+      "byteLength": 233928
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3734664,
+      "byteLength": 233928
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3968592,
+      "byteLength": 693600
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4662192,
+      "byteLength": 350892
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5013084,
+      "byteLength": 350892
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5363976,
+      "byteLength": 467856
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 5831832,
+      "byteLength": 233928
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6065760,
+      "byteLength": 233928
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6299688,
+      "byteLength": 693600
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6993288,
+      "byteLength": 350892
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7344180,
+      "byteLength": 350892
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 7695072,
+      "byteLength": 467856
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8162928,
+      "byteLength": 233928
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8396856,
+      "byteLength": 233928
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8630784,
+      "byteLength": 693600
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9324384,
+      "byteLength": 350892
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9675276,
+      "byteLength": 350892
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 10026168,
+      "byteLength": 467856
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 10494024,
+      "byteLength": 233928
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 10727952,
+      "byteLength": 233928
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 10961880,
+      "byteLength": 693600
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 11655480,
+      "byteLength": 350892
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 12006372,
+      "byteLength": 350892
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 12357264,
+      "byteLength": 467856
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 12825120,
+      "byteLength": 233928
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13059048,
+      "byteLength": 233928
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13292976,
+      "byteLength": 693600
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 13986576,
+      "byteLength": 350892
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14337468,
+      "byteLength": 350892
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 14688360,
+      "byteLength": 467856
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 15156216,
+      "byteLength": 233928
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 15390144,
+      "byteLength": 233928
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 15624072,
+      "byteLength": 693600
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 16317672,
+      "byteLength": 350892
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 16668564,
+      "byteLength": 350892
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 17019456,
+      "byteLength": 467856
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 17487312,
+      "byteLength": 233928
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 17721240,
+      "byteLength": 233928
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 17955168,
+      "byteLength": 693600
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 18648768,
+      "byteLength": 350892
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 18999660,
+      "byteLength": 350892
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 19350552,
+      "byteLength": 467856
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 19818408,
+      "byteLength": 233928
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 20052336,
+      "byteLength": 233928
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 20286264,
+      "byteLength": 693600
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 20979864,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 20986044,
+      "byteLength": 6180
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 20992224,
+      "byteLength": 8240
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 21000464,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 21004584,
+      "byteLength": 4120
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 21008704,
+      "byteLength": 9216
+    }
+  ],
+  "images": [
+    {
+      "uri": "assets/T_Ground_Sand_02_N.png",
+      "name": "T_Ground_Sand_02_N"
+    },
+    {
+      "uri": "assets/T_Ground_Sand_02_A_Sm.png",
+      "name": "T_Ground_Sand_02_A_Sm"
+    },
+    {
+      "uri": "assets/Terrain.Splatmaps.png",
+      "name": "Terrain.Splatmaps"
+    },
+    {
+      "uri": "assets/Terrain.Layers.png",
+      "name": "Terrain.Layers"
+    },
+    {
+      "uri": "assets/Terrain.Normals.png",
+      "name": "Terrain.Normals"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0,
+          "extensions": {
+            "KHR_texture_transform": {
+              "scale": [
+                125.0,
+                125.0
+              ]
+            }
+          }
+        },
+        "metallicFactor": 0.20000000298023224,
+        "roughnessFactor": 0.5
+      },
+      "normalTexture": {
+        "scale": 1.2000000476837158,
+        "index": 0,
+        "texCoord": 0,
+        "extensions": {
+          "KHR_texture_transform": {
+            "scale": [
+              125.0,
+              125.0
+            ]
+          }
+        }
+      },
+      "name": "Terrain-Material",
+      "extras": {
+        "metadata": {
+          "alphaMode": 0,
+          "alphaFade": false,
+          "useWireframe": false,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": false,
+          "disableLighting": false,
+          "detailBlendLevel": 0.75,
+          "detailBumpLevel": 1.0,
+          "detailRoughLevel": 0.5,
+          "lightmapLevel": 1.0,
+          "backFaceCulling": true,
+          "parallaxBias": 0.05,
+          "parallaxOcclusion": true,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useExpandedLightmapTexture": false,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": true,
+          "useAlphaFromAlbedoTexture": false,
+          "hasAlbedoTextureChannel": false,
+          "maxSimultaneousLights": 4,
+          "indexOfRefraction": 1.5,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "reflectionColorFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "customShader": "Albedo",
+          "customMaterial": "BABYLON.UniversalTerrainMaterial",
+          "customTextures": {
+            "splatmapSampler": {
+              "index": 2,
+              "texCoord": 0
+            },
+            "detailsSampler": {
+              "index": 3,
+              "texCoord": 0
+            },
+            "normalsSampler": {
+              "index": 4,
+              "texCoord": 0
+            }
+          },
+          "terrainInfo": {
+            "id": "24fe9d1c-1f7b-4a82-9906-5bfa2cd6a2f7",
+            "res": 513,
+            "size": [
+              1000.0,
+              600.0,
+              1000.0
+            ],
+            "label": "Terrain",
+            "layers": 2,
+            "detail": 1024,
+            "basemap": 1024,
+            "alphamap": 512,
+            "splatmapCount": 1,
+            "splatmapAtlas": [
+              512.0,
+              512.0,
+              512.0,
+              9.0
+            ],
+            "splatmapAsset": "assets/Terrain.Splatmaps.png",
+            "splatmapRect0": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ],
+            "textureCount": 2,
+            "textureAtlas": [
+              2048.0,
+              1024.0,
+              1024.0,
+              10.0
+            ],
+            "textureAsset": "assets/Terrain.Layers.png",
+            "textureTag0": "T_Ground_Sand_02_A_Sm",
+            "textureRect0": [
+              0.0,
+              0.0,
+              0.5,
+              1.0
+            ],
+            "textureInfo0": [
+              125.0,
+              125.0,
+              0.0,
+              0.0
+            ],
+            "textureTag1": "T_ground_grass_01_A_SM",
+            "textureRect1": [
+              1.0,
+              0.0,
+              0.5,
+              1.0
+            ],
+            "textureInfo1": [
+              500.0,
+              500.0,
+              0.0,
+              0.0
+            ],
+            "normalsCount": 2,
+            "normalsAtlas": [
+              2048.0,
+              1024.0,
+              1024.0,
+              10.0
+            ],
+            "normalsAsset": "assets/Terrain.Normals.png",
+            "normalsTag0": "T_Ground_Sand_02_N",
+            "normalsScale0": 1.2,
+            "normalsTag1": "T_ground_grass_01_N",
+            "normalsScale1": 1.0
+          }
+        }
+      }
+    },
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "Default-Material",
+      "extras": {
+        "metadata": {
+          "alphaMode": 0,
+          "alphaFade": false,
+          "useWireframe": false,
+          "depthPrepass": false,
+          "unlitMaterial": false,
+          "freezeMaterial": false,
+          "disableLighting": false,
+          "detailBlendLevel": 0.75,
+          "detailBumpLevel": 1.0,
+          "detailRoughLevel": 0.5,
+          "lightmapLevel": 1.0,
+          "backFaceCulling": true,
+          "directIntensity": 1.0,
+          "specularIntensity": 1.0,
+          "emissiveIntensity": 1.0,
+          "environmentIntensity": 1.0,
+          "useExpandedLightmapTexture": false,
+          "useEmissiveAsIllumination": false,
+          "useLightmapAsShadowmap": true,
+          "useAlphaFromAlbedoTexture": false,
+          "hasAlbedoTextureChannel": false,
+          "maxSimultaneousLights": 4,
+          "indexOfRefraction": 1.5,
+          "ambientColorFactor": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "reflectionColorFactor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0
+        }
+      ],
+      "name": "Terrain"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TANGENT": 8,
+            "TEXCOORD_0": 9,
+            "TEXCOORD_1": 10
+          },
+          "indices": 11,
+          "material": 0
+        }
+      ],
+      "name": "Terrain"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 12,
+            "NORMAL": 13,
+            "TANGENT": 14,
+            "TEXCOORD_0": 15,
+            "TEXCOORD_1": 16
+          },
+          "indices": 17,
+          "material": 0
+        }
+      ],
+      "name": "Terrain"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 18,
+            "NORMAL": 19,
+            "TANGENT": 20,
+            "TEXCOORD_0": 21,
+            "TEXCOORD_1": 22
+          },
+          "indices": 23,
+          "material": 0
+        }
+      ],
+      "name": "Terrain"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 24,
+            "NORMAL": 25,
+            "TANGENT": 26,
+            "TEXCOORD_0": 27,
+            "TEXCOORD_1": 28
+          },
+          "indices": 29,
+          "material": 0
+        }
+      ],
+      "name": "Terrain"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 30,
+            "NORMAL": 31,
+            "TANGENT": 32,
+            "TEXCOORD_0": 33,
+            "TEXCOORD_1": 34
+          },
+          "indices": 35,
+          "material": 0
+        }
+      ],
+      "name": "Terrain"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 36,
+            "NORMAL": 37,
+            "TANGENT": 38,
+            "TEXCOORD_0": 39,
+            "TEXCOORD_1": 40
+          },
+          "indices": 41,
+          "material": 0
+        }
+      ],
+      "name": "Terrain"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 42,
+            "NORMAL": 43,
+            "TANGENT": 44,
+            "TEXCOORD_0": 45,
+            "TEXCOORD_1": 46
+          },
+          "indices": 47,
+          "material": 0
+        }
+      ],
+      "name": "Terrain"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 48,
+            "NORMAL": 49,
+            "TANGENT": 50,
+            "TEXCOORD_0": 51,
+            "TEXCOORD_1": 52
+          },
+          "indices": 53,
+          "material": 0
+        }
+      ],
+      "name": "Terrain"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 54,
+            "NORMAL": 55,
+            "TANGENT": 56,
+            "TEXCOORD_0": 57,
+            "TEXCOORD_1": 58
+          },
+          "indices": 59,
+          "material": 1
+        }
+      ],
+      "name": "Sphere"
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Mesh Colliders"
+    },
+    {
+      "rotation": [
+        0.408217877,
+        -0.234569684,
+        0.109381631,
+        0.8754261
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        0.99999994
+      ],
+      "translation": [
+        0.0,
+        50.0,
+        0.0
+      ],
+      "name": "Directional Light",
+      "extras": {
+        "metadata": {
+          "guid": "9abef170-bfea-4dc9-a61c-3dacccf763e3",
+          "components": [
+            {
+              "alias": "light",
+              "type": 0,
+              "range": 10.0,
+              "culling": -1,
+              "clearflags": 0,
+              "renderlist": null,
+              "color": {
+                "r": 1.0,
+                "g": 0.904661357,
+                "b": 0.6724432,
+                "a": 1.0
+              },
+              "specular": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "intensity": 1.0,
+              "spotangle": 30.0,
+              "orthoscale": 0.1,
+              "autorender": true,
+              "numcascades": 4,
+              "calczbounds": false,
+              "updateextends": false,
+              "ortholeft": 1.7976931348623157E+308,
+              "orthoright": 1.7976931348623157E+308,
+              "orthotop": 1.7976931348623157E+308,
+              "orthobottom": 1.7976931348623157E+308,
+              "softshadows": true,
+              "shadowmapsize": 2048,
+              "shadowquality": "High",
+              "generateshadows": true,
+              "shadowdistance": 512.0,
+              "shadowstrength": 1.0,
+              "shadowbiasfactor": 0.01,
+              "normalbiasfactor": 0.0,
+              "shadowmapbias": 0.05,
+              "normalmapbias": 0.4,
+              "shadownearplane": 0.2,
+              "cascadelambda": 1.0,
+              "twocascadesplit": 0.333333343,
+              "fourcascadesplit": [
+                0.06666667,
+                0.2,
+                0.466666669
+              ],
+              "blendpertecntage": 1E-08,
+              "boundsrefreshrate": 1,
+              "lightcontactratio": 0.1,
+              "stabilizecascades": false,
+              "exponentdecayspeed": 1.0,
+              "penumbradarkness": 1.0,
+              "softshadowsfilter": 99,
+              "freezeshadows": false,
+              "setdepthclamp": false,
+              "calcdepths": false,
+              "depthscaling": 50.0,
+              "kernelblur": false,
+              "blurscaling": 2.0,
+              "blurkernelsize": 1.0,
+              "blurboxoffset": 1.0,
+              "shadowfrustumsize": 0.0,
+              "frustumedgefalloff": 0.0,
+              "forcebackfacesonly": false,
+              "transparencyshadow": false,
+              "softtransparency": false,
+              "shadowfilterquality": "Medium",
+              "usefullfloatfirst": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "children": [
+        3,
+        13
+      ],
+      "name": "Terrain"
+    },
+    {
+      "children": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "name": "Terrain_meshes"
+    },
+    {
+      "mesh": 0,
+      "name": "Terrain_mesh_0",
+      "extras": {
+        "metadata": {
+          "guid": "24fe9d1c-1f7b-4a82-9906-5bfa2cd6a2f7",
+          "navigation": {
+            "area": 0,
+            "links": null
+          },
+          "lightmapped": true,
+          "group": "Terrain",
+          "tags": "TerrainMesh NavigationStatic Layer0",
+          "renderer": {
+            "castshadows": false,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "hasmeshcollider": false,
+            "freezeworldmatrix": true,
+            "setmeshpickable": false,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "rendergroupid": 0
+          }
+        }
+      }
+    },
+    {
+      "mesh": 1,
+      "name": "Terrain_mesh_1",
+      "extras": {
+        "metadata": {
+          "guid": "24fe9d1c-1f7b-4a82-9906-5bfa2cd6a2f7",
+          "navigation": {
+            "area": 0,
+            "links": null
+          },
+          "lightmapped": true,
+          "group": "Terrain",
+          "tags": "TerrainMesh NavigationStatic Layer0",
+          "renderer": {
+            "castshadows": false,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "hasmeshcollider": false,
+            "freezeworldmatrix": true,
+            "setmeshpickable": false,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "rendergroupid": 0
+          }
+        }
+      }
+    },
+    {
+      "mesh": 2,
+      "name": "Terrain_mesh_2",
+      "extras": {
+        "metadata": {
+          "guid": "24fe9d1c-1f7b-4a82-9906-5bfa2cd6a2f7",
+          "navigation": {
+            "area": 0,
+            "links": null
+          },
+          "lightmapped": true,
+          "group": "Terrain",
+          "tags": "TerrainMesh NavigationStatic Layer0",
+          "renderer": {
+            "castshadows": false,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "hasmeshcollider": false,
+            "freezeworldmatrix": true,
+            "setmeshpickable": false,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "rendergroupid": 0
+          }
+        }
+      }
+    },
+    {
+      "mesh": 3,
+      "name": "Terrain_mesh_3",
+      "extras": {
+        "metadata": {
+          "guid": "24fe9d1c-1f7b-4a82-9906-5bfa2cd6a2f7",
+          "navigation": {
+            "area": 0,
+            "links": null
+          },
+          "lightmapped": true,
+          "group": "Terrain",
+          "tags": "TerrainMesh NavigationStatic Layer0",
+          "renderer": {
+            "castshadows": false,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "hasmeshcollider": false,
+            "freezeworldmatrix": true,
+            "setmeshpickable": false,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "rendergroupid": 0
+          }
+        }
+      }
+    },
+    {
+      "mesh": 4,
+      "name": "Terrain_mesh_4",
+      "extras": {
+        "metadata": {
+          "guid": "24fe9d1c-1f7b-4a82-9906-5bfa2cd6a2f7",
+          "navigation": {
+            "area": 0,
+            "links": null
+          },
+          "lightmapped": true,
+          "group": "Terrain",
+          "tags": "TerrainMesh NavigationStatic Layer0",
+          "renderer": {
+            "castshadows": false,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "hasmeshcollider": false,
+            "freezeworldmatrix": true,
+            "setmeshpickable": false,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "rendergroupid": 0
+          }
+        }
+      }
+    },
+    {
+      "mesh": 5,
+      "name": "Terrain_mesh_5",
+      "extras": {
+        "metadata": {
+          "guid": "24fe9d1c-1f7b-4a82-9906-5bfa2cd6a2f7",
+          "navigation": {
+            "area": 0,
+            "links": null
+          },
+          "lightmapped": true,
+          "group": "Terrain",
+          "tags": "TerrainMesh NavigationStatic Layer0",
+          "renderer": {
+            "castshadows": false,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "hasmeshcollider": false,
+            "freezeworldmatrix": true,
+            "setmeshpickable": false,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "rendergroupid": 0
+          }
+        }
+      }
+    },
+    {
+      "mesh": 6,
+      "name": "Terrain_mesh_6",
+      "extras": {
+        "metadata": {
+          "guid": "24fe9d1c-1f7b-4a82-9906-5bfa2cd6a2f7",
+          "navigation": {
+            "area": 0,
+            "links": null
+          },
+          "lightmapped": true,
+          "group": "Terrain",
+          "tags": "TerrainMesh NavigationStatic Layer0",
+          "renderer": {
+            "castshadows": false,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "hasmeshcollider": false,
+            "freezeworldmatrix": true,
+            "setmeshpickable": false,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "rendergroupid": 0
+          }
+        }
+      }
+    },
+    {
+      "mesh": 7,
+      "name": "Terrain_mesh_7",
+      "extras": {
+        "metadata": {
+          "guid": "24fe9d1c-1f7b-4a82-9906-5bfa2cd6a2f7",
+          "navigation": {
+            "area": 0,
+            "links": null
+          },
+          "lightmapped": true,
+          "group": "Terrain",
+          "tags": "TerrainMesh NavigationStatic Layer0",
+          "renderer": {
+            "castshadows": false,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "hasmeshcollider": false,
+            "freezeworldmatrix": true,
+            "setmeshpickable": false,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "rendergroupid": 0
+          }
+        }
+      }
+    },
+    {
+      "mesh": 8,
+      "name": "Terrain_mesh_8",
+      "extras": {
+        "metadata": {
+          "guid": "24fe9d1c-1f7b-4a82-9906-5bfa2cd6a2f7",
+          "navigation": {
+            "area": 0,
+            "links": null
+          },
+          "lightmapped": true,
+          "group": "Terrain",
+          "tags": "TerrainMesh NavigationStatic Layer0",
+          "renderer": {
+            "castshadows": false,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": false,
+            "hasmeshcollider": false,
+            "freezeworldmatrix": true,
+            "setmeshpickable": false,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "rendergroupid": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "Terrain_colliders"
+    },
+    {
+      "name": "Terrain_collider_0",
+      "extras": {
+        "metadata": {
+          "guid": "24fe9d1c-1f7b-4a82-9906-5bfa2cd6a2f7",
+          "visibility": 0.5,
+          "navigation": {
+            "area": 0,
+            "links": null
+          },
+          "lightmapped": true,
+          "group": "Terrain",
+          "tags": "TerrainCollider NavigationStatic Layer0",
+          "physics": {
+            "type": "rigidbody",
+            "root": false,
+            "mass": 0,
+            "ldrag": 0,
+            "adrag": 0,
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "freeze": null,
+            "gravity": true
+          },
+          "collision": {
+            "type": "MeshCollider",
+            "entity": "Terrain",
+            "center": null,
+            "trigger": false,
+            "boxsize": null,
+            "segments": null,
+            "compound": false,
+            "convexmesh": false,
+            "capsulesize": null,
+            "sphereradius": null,
+            "restitution": 0.0,
+            "dynamicfriction": 0.6,
+            "staticfriction": 0.6,
+            "wheelinformation": null
+          },
+          "renderer": {
+            "castshadows": false,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": true,
+            "hasmeshcollider": false,
+            "freezeworldmatrix": true,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "rendergroupid": 0
+          }
+        }
+      }
+    },
+    {
+      "translation": [
+        512.0,
+        9.7,
+        407.2
+      ],
+      "name": "Camera",
+      "extras": {
+        "metadata": {
+          "guid": "cbe515cc-c64a-472b-b18c-300420d9b04c",
+          "components": [
+            {
+              "alias": "camera",
+              "type": 0,
+              "culling": -1,
+              "clearflags": 1,
+              "renderlist": null,
+              "maincamera": false,
+              "camerabase": 4,
+              "perspectiveyfov": 1.04719758,
+              "perspectiveaspect": 2.15032673,
+              "perspectivezfar": 2011,
+              "perspectiveznear": 0.3
+            },
+            {
+              "alias": "script",
+              "order": -100,
+              "klass": "PROJECT.UniversalCameraSystem",
+              "properties": {
+                "mainCameraType": 4,
+                "setCameraInertia": 0.5,
+                "cameraController": {
+                  "attachControl": true,
+                  "preventDefault": true,
+                  "disableTouches": false,
+                  "checkCollisions": false,
+                  "setApplyGravity": false,
+                  "keyboardWASD": false,
+                  "arrowKeyRotation": false,
+                  "cameraSpeed": 2.0,
+                  "rotationSpeed": 0.5,
+                  "invRotationSpeed": 0.2,
+                  "touchRotation": 200000.0,
+                  "touchMovement": 250.0,
+                  "gamepadRotation": 200.0,
+                  "gamepadMovement": 40.0
+                },
+                "immersiveOptions": {
+                  "optionalFeatures": true,
+                  "useStablePlugins": true,
+                  "localStorageOption": false,
+                  "ignoreNativeCamera": false,
+                  "disableUserInterface": false,
+                  "disablePointerSelect": false,
+                  "renderingGroupNum": 0,
+                  "setFloorMeshesTags": "Navigation",
+                  "referenceSpaceType": 2,
+                  "experienceInputOptions": {
+                    "disableMeshLoad": false,
+                    "disableRepository": false,
+                    "customRepository": "",
+                    "forceInputProfile": "",
+                    "disableModelAnim": false,
+                    "controllerOptions": {
+                      "disableCtrlAnim": false,
+                      "disableCtrlMesh": false,
+                      "forceCtrlProfile": ""
+                    }
+                  },
+                  "defaultTeleportationSetup": {
+                    "useTeleportation": true,
+                    "rotationsEnabled": true,
+                    "backwardsEnabled": true,
+                    "backwardsDistance": 1.0,
+                    "turningAxisAngle": 22.5,
+                    "parabolicRadius": 5.0
+                  }
+                },
+                "multiPlayerSetup": {
+                  "playerStartupMode": 1,
+                  "stereoSideBySide": true
+                },
+                "renderingPipeline": {
+                  "usePostProcessing": false,
+                  "highDynamicRange": false,
+                  "screenAntiAliasing": {
+                    "msaaSamples": 1,
+                    "fxaaEnabled": false,
+                    "fxaaScaling": false,
+                    "fxaaSamples": 1
+                  },
+                  "focalDepthOfField": {
+                    "depthOfField": false,
+                    "blurLevel": 0.0,
+                    "focalStop": 1.4,
+                    "focalLength": 50,
+                    "focusDistance": 2000,
+                    "maxLensSize": 50
+                  },
+                  "chromaticAberration": {
+                    "aberrationEnabled": false,
+                    "aberrationAmount": 30,
+                    "adaptScaleViewport": false,
+                    "alphaMode": 0,
+                    "alwaysForcePOT": false,
+                    "pixelPerfectMode": false,
+                    "fullscreenViewport": true
+                  },
+                  "glowLayerProperties": {
+                    "glowEnabled": false,
+                    "glowIntensity": 1,
+                    "blurKernelSize": 16
+                  },
+                  "grainEffectProperties": {
+                    "grainEnabled": false,
+                    "grainAnimated": false,
+                    "grainIntensity": 30,
+                    "adaptScaleViewport": false
+                  },
+                  "sharpEffectProperties": {
+                    "sharpenEnabled": false,
+                    "sharpEdgeAmount": 0.3,
+                    "sharpColorAmount": 1.0,
+                    "adaptScaleViewport": false
+                  },
+                  "bloomEffectProperties": {
+                    "bloomEnabled": false,
+                    "bloomKernel": 64,
+                    "bloomScale": 0.5,
+                    "bloomWeight": 0.15,
+                    "bloomThreshold": 0.9
+                  },
+                  "imageProcessingConfig": {
+                    "imageProcessing": true,
+                    "imageContrast": 1.0,
+                    "imageExposure": 1.0,
+                    "vignetteEnabled": false,
+                    "vignetteBlendMode": 0,
+                    "vignetteCameraFov": 0.5,
+                    "vignetteStretch": 0.0,
+                    "vignetteCentreX": 0.0,
+                    "vignetteCentreY": 0.0,
+                    "vignetteWeight": 1.5,
+                    "vignetteColor": {
+                      "r": 0.0,
+                      "g": 0.0,
+                      "b": 0.0,
+                      "a": 0.0
+                    },
+                    "useColorGrading": false,
+                    "setGradingTexture": null,
+                    "imagingColorCurves": {
+                      "curvesEnabled": false,
+                      "globalDen": 0.0,
+                      "globalExp": 0.0,
+                      "globalHue": 30.0,
+                      "globalSat": 0.0,
+                      "highlightsDen": 0.0,
+                      "highlightsExp": 0.0,
+                      "highlightsHue": 30.0,
+                      "highlightsSat": 0.0,
+                      "midtonesDen": 0.0,
+                      "midtonesExp": 0.0,
+                      "midtonesHue": 30.0,
+                      "midtonesSat": 0.0,
+                      "shadowsDen": 80.0,
+                      "shadowsExp": 0.0,
+                      "shadowsHue": 30.0,
+                      "shadowsSat": 0.0
+                    }
+                  },
+                  "screenSpaceRendering": {
+                    "SSAO": false,
+                    "SSAORatio": 0.5,
+                    "combineRatio": 1.0,
+                    "totalStrength": 1.0,
+                    "radius": 0.0001,
+                    "area": 0.0075,
+                    "fallOff": 1E-06,
+                    "baseValue": 0.5
+                  }
+                }
+              },
+              "instance": null
+            },
+            {
+              "alias": "script",
+              "order": 0,
+              "klass": "PROJECT.FixTerrain",
+              "properties": null,
+              "instance": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "mesh": 9,
+      "scale": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "translation": [
+        512.0,
+        50.0,
+        512.0
+      ],
+      "name": "Sphere",
+      "extras": {
+        "metadata": {
+          "guid": "79ed815e-53e8-40ff-8169-6e8adc5e1082",
+          "physics": {
+            "type": "rigidbody",
+            "root": false,
+            "mass": 1.0,
+            "ldrag": 0.0,
+            "adrag": 0.05,
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "freeze": {
+              "positionx": false,
+              "positiony": false,
+              "positionz": false,
+              "rotationx": false,
+              "rotationy": false,
+              "rotationz": false
+            },
+            "gravity": true
+          },
+          "collision": {
+            "type": "SphereCollider",
+            "entity": "Sphere",
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "trigger": false,
+            "boxsize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "segments": 24,
+            "compound": false,
+            "convexmesh": false,
+            "capsulesize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "sphereradius": 0.5,
+            "restitution": 0.0,
+            "dynamicfriction": 0.6,
+            "staticfriction": 0.6,
+            "wheelinformation": null
+          },
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": true,
+            "hasmeshcollider": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          },
+          "components": [
+            {
+              "alias": "script",
+              "order": -1,
+              "klass": "BABYLON.RigidbodyPhysics",
+              "properties": {
+                "mass": 1.0,
+                "drag": 0.0,
+                "angularDrag": 0.05,
+                "useGravity": true,
+                "isKinematic": false
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "mesh": 9,
+      "scale": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "translation": [
+        512.0,
+        167.1,
+        512.0
+      ],
+      "name": "Sphere (1)",
+      "extras": {
+        "metadata": {
+          "guid": "fa80c233-190e-4b98-8b0c-77d37944567f",
+          "physics": {
+            "type": "rigidbody",
+            "root": false,
+            "mass": 1.0,
+            "ldrag": 0.0,
+            "adrag": 0.05,
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "freeze": {
+              "positionx": false,
+              "positiony": false,
+              "positionz": false,
+              "rotationx": false,
+              "rotationy": false,
+              "rotationz": false
+            },
+            "gravity": true
+          },
+          "collision": {
+            "type": "SphereCollider",
+            "entity": "Sphere (1)",
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "trigger": false,
+            "boxsize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "segments": 24,
+            "compound": false,
+            "convexmesh": false,
+            "capsulesize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "sphereradius": 0.5,
+            "restitution": 0.0,
+            "dynamicfriction": 0.6,
+            "staticfriction": 0.6,
+            "wheelinformation": null
+          },
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": true,
+            "hasmeshcollider": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          },
+          "components": [
+            {
+              "alias": "script",
+              "order": -1,
+              "klass": "BABYLON.RigidbodyPhysics",
+              "properties": {
+                "mass": 1.0,
+                "drag": 0.0,
+                "angularDrag": 0.05,
+                "useGravity": true,
+                "isKinematic": false
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "mesh": 9,
+      "scale": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "translation": [
+        512.0,
+        300.0,
+        512.0
+      ],
+      "name": "Sphere (2)",
+      "extras": {
+        "metadata": {
+          "guid": "bd1edd6a-64a6-4593-982e-07d5cea2eed7",
+          "physics": {
+            "type": "rigidbody",
+            "root": false,
+            "mass": 1.0,
+            "ldrag": 0.0,
+            "adrag": 0.05,
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "freeze": {
+              "positionx": false,
+              "positiony": false,
+              "positionz": false,
+              "rotationx": false,
+              "rotationy": false,
+              "rotationz": false
+            },
+            "gravity": true
+          },
+          "collision": {
+            "type": "SphereCollider",
+            "entity": "Sphere (2)",
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "trigger": false,
+            "boxsize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "segments": 24,
+            "compound": false,
+            "convexmesh": false,
+            "capsulesize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "sphereradius": 0.5,
+            "restitution": 0.0,
+            "dynamicfriction": 0.6,
+            "staticfriction": 0.6,
+            "wheelinformation": null
+          },
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": true,
+            "hasmeshcollider": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          },
+          "components": [
+            {
+              "alias": "script",
+              "order": -1,
+              "klass": "BABYLON.RigidbodyPhysics",
+              "properties": {
+                "mass": 1.0,
+                "drag": 0.0,
+                "angularDrag": 0.05,
+                "useGravity": true,
+                "isKinematic": false
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "mesh": 9,
+      "scale": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "translation": [
+        512.0,
+        50.0,
+        550.0
+      ],
+      "name": "Sphere (3)",
+      "extras": {
+        "metadata": {
+          "guid": "448c696e-c659-472e-8fd3-c1b5db2c2c51",
+          "physics": {
+            "type": "rigidbody",
+            "root": false,
+            "mass": 1.0,
+            "ldrag": 0.0,
+            "adrag": 0.05,
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "freeze": {
+              "positionx": false,
+              "positiony": false,
+              "positionz": false,
+              "rotationx": false,
+              "rotationy": false,
+              "rotationz": false
+            },
+            "gravity": true
+          },
+          "collision": {
+            "type": "SphereCollider",
+            "entity": "Sphere (3)",
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "trigger": false,
+            "boxsize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "segments": 24,
+            "compound": false,
+            "convexmesh": false,
+            "capsulesize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "sphereradius": 0.5,
+            "restitution": 0.0,
+            "dynamicfriction": 0.6,
+            "staticfriction": 0.6,
+            "wheelinformation": null
+          },
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": true,
+            "hasmeshcollider": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          },
+          "components": [
+            {
+              "alias": "script",
+              "order": -1,
+              "klass": "BABYLON.RigidbodyPhysics",
+              "properties": {
+                "mass": 1.0,
+                "drag": 0.0,
+                "angularDrag": 0.05,
+                "useGravity": true,
+                "isKinematic": false
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "mesh": 9,
+      "scale": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "translation": [
+        512.0,
+        167.1,
+        550.0
+      ],
+      "name": "Sphere (4)",
+      "extras": {
+        "metadata": {
+          "guid": "a9d40a3a-67e9-4afe-a42c-8482612ba4be",
+          "physics": {
+            "type": "rigidbody",
+            "root": false,
+            "mass": 1.0,
+            "ldrag": 0.0,
+            "adrag": 0.05,
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "freeze": {
+              "positionx": false,
+              "positiony": false,
+              "positionz": false,
+              "rotationx": false,
+              "rotationy": false,
+              "rotationz": false
+            },
+            "gravity": true
+          },
+          "collision": {
+            "type": "SphereCollider",
+            "entity": "Sphere (4)",
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "trigger": false,
+            "boxsize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "segments": 24,
+            "compound": false,
+            "convexmesh": false,
+            "capsulesize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "sphereradius": 0.5,
+            "restitution": 0.0,
+            "dynamicfriction": 0.6,
+            "staticfriction": 0.6,
+            "wheelinformation": null
+          },
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": true,
+            "hasmeshcollider": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          },
+          "components": [
+            {
+              "alias": "script",
+              "order": -1,
+              "klass": "BABYLON.RigidbodyPhysics",
+              "properties": {
+                "mass": 1.0,
+                "drag": 0.0,
+                "angularDrag": 0.05,
+                "useGravity": true,
+                "isKinematic": false
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "mesh": 9,
+      "scale": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "translation": [
+        512.0,
+        300.0,
+        550.0
+      ],
+      "name": "Sphere (5)",
+      "extras": {
+        "metadata": {
+          "guid": "44193715-c093-4f5b-bc76-d636984cdeb7",
+          "physics": {
+            "type": "rigidbody",
+            "root": false,
+            "mass": 1.0,
+            "ldrag": 0.0,
+            "adrag": 0.05,
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "freeze": {
+              "positionx": false,
+              "positiony": false,
+              "positionz": false,
+              "rotationx": false,
+              "rotationy": false,
+              "rotationz": false
+            },
+            "gravity": true
+          },
+          "collision": {
+            "type": "SphereCollider",
+            "entity": "Sphere (5)",
+            "center": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "trigger": false,
+            "boxsize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "segments": 24,
+            "compound": false,
+            "convexmesh": false,
+            "capsulesize": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "sphereradius": 0.5,
+            "restitution": 0.0,
+            "dynamicfriction": 0.6,
+            "staticfriction": 0.6,
+            "wheelinformation": null
+          },
+          "renderer": {
+            "castshadows": true,
+            "receiveshadows": true,
+            "usevertexcolors": false,
+            "istriggervolume": false,
+            "checkcollisions": true,
+            "hasmeshcollider": false,
+            "freezeworldmatrix": false,
+            "setmeshpickable": true,
+            "cullingstrategy": 0,
+            "showboundingbox": false,
+            "defaultellipsoid": {
+              "x": 0.5,
+              "y": 1.0,
+              "z": 0.5
+            },
+            "ellipsoidoffset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rendergroupid": 0,
+            "layermask": 1
+          },
+          "components": [
+            {
+              "alias": "script",
+              "order": -1,
+              "klass": "BABYLON.RigidbodyPhysics",
+              "properties": {
+                "mass": 1.0,
+                "drag": 0.0,
+                "angularDrag": 0.05,
+                "useGravity": true,
+                "isKinematic": false
+              },
+              "instance": null
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9985
+    },
+    {
+      "minFilter": 9987
+    },
+    {
+      "minFilter": 9987
+    },
+    {
+      "minFilter": 9987
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "name": "Terrain",
+      "extras": {
+        "metadata": {
+          "gltf": true,
+          "intensity": 1.0,
+          "debugging": true,
+          "properties": true,
+          "disposeroot": false,
+          "ktxtextures": false,
+          "ktxlightmaps": false,
+          "rendergroups": 4,
+          "rawmaterials": [],
+          "script": "seed",
+          "project": "Seed.js",
+          "filename": "Terrain",
+          "prewarmup": 1.0,
+          "hideloader": true,
+          "exposure": 1,
+          "tonemapping": 0,
+          "gammacorrection": 1,
+          "trianglenormals": true,
+          "deltaworldstep": true,
+          "subtimestep": 0.0,
+          "pointerlock": false,
+          "preventdefault": false,
+          "ccdpenetration": 0.0001,
+          "ccdenabled": true,
+          "maxworldsweep": 0,
+          "enableinput": true,
+          "usecapture": false,
+          "userinput": null,
+          "showdebugcolliders": true,
+          "collidervisibility": 0.5,
+          "colliderrendergroup": 0,
+          "collisionwireframe": true,
+          "navigation": {
+            "prebaked": null,
+            "tilecount": 0,
+            "collision": false,
+            "showdebug": true,
+            "debugcolor": [
+              0.05,
+              0.225,
+              0.75,
+              1.0
+            ],
+            "timesteps": 0.0,
+            "areatable": [
+              {
+                "index": 0,
+                "area": "Walkable",
+                "cost": 1.0
+              },
+              {
+                "index": 1,
+                "area": "Not Walkable",
+                "cost": 1.0
+              },
+              {
+                "index": 2,
+                "area": "Jump",
+                "cost": 2.0
+              }
+            ],
+            "bakeprops": {
+              "cs": 0.3,
+              "ch": 0.2,
+              "walkableradius": 0,
+              "walkableheight": 0,
+              "walkableslopeangle": 90.0,
+              "walkableclimb": 5,
+              "maxedgelen": 12,
+              "minregionarea": 2,
+              "mergeregionarea": 20,
+              "maxsimplificationerror": 1.3,
+              "maxvertsperpoly": 6,
+              "detailsampledist": 6.0,
+              "detailsamplemaxerror": 1.0
+            },
+            "offmeshlinks": null
+          },
+          "autoclear": true,
+          "clearcolor": {
+            "r": 0.2,
+            "g": 0.2,
+            "b": 0.2,
+            "a": 1.0
+          },
+          "sunposition": {
+            "x": 0.0,
+            "y": 50.0,
+            "z": 0.0
+          },
+          "sunrotation": {
+            "x": 0.408217877,
+            "y": -0.234569684,
+            "z": 0.109381631,
+            "w": 0.8754261
+          },
+          "enablephysics": true,
+          "defaultgravity": {
+            "x": 0.0,
+            "y": -9.81,
+            "z": 0.0
+          },
+          "freezeactivemeshes": true,
+          "imageprocessing": {
+            "contrast": 1.0,
+            "exposure": 1.0
+          },
+          "ambientlightintensity": 1.0,
+          "ambientspecularcolor": {
+            "r": 0.0,
+            "g": 0.0,
+            "b": 0.0,
+            "a": 1.0
+          },
+          "ambientgroundcolor": {
+            "r": 0.575300157,
+            "g": 0.567777157,
+            "b": 0.5606284,
+            "a": 1.0
+          },
+          "ambientskycolor": {
+            "r": 0.569617867,
+            "g": 0.609120965,
+            "b": 0.6881134,
+            "a": 1.0
+          },
+          "ambientcoloring": {
+            "r": 0.3,
+            "g": 0.3,
+            "b": 0.3,
+            "a": 1.0
+          },
+          "ambientlighting": 1,
+          "fogtype": "None",
+          "fogmode": 0,
+          "fogdensity": 0.01,
+          "fogcolor": {
+            "r": 0.5,
+            "g": 0.5,
+            "b": 0.5,
+            "a": 1.0
+          },
+          "fogstart": 0.0,
+          "fogend": 300.0,
+          "skybox": null
+        }
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "T_Ground_Sand_02_N"
+    },
+    {
+      "sampler": 1,
+      "source": 1,
+      "name": "T_Ground_Sand_02_A_Sm"
+    },
+    {
+      "sampler": 2,
+      "source": 2,
+      "name": "Terrain.Splatmaps"
+    },
+    {
+      "sampler": 3,
+      "source": 3,
+      "name": "Terrain.Layers"
+    },
+    {
+      "sampler": 4,
+      "source": 4,
+      "name": "Terrain.Normals"
+    }
+  ]
+}
