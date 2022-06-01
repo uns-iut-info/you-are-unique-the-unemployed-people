@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"), local("Roboto-Regular"),
+    url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2)
+      format("woff2");
+}
+
+.enemy_info_gu {
+  text-align: center;
+  width: 30vw;
+  margin: auto;
+  top: 20px;
+  right: 0;
+  left: 0;
+  position: absolute;
+  display: table-row;
+}
+
+.enemy_health_section_gu {
+  display: flex;
+}
+
+.enemy_name_gu {
+  font-size: 1.5em;
+  color: white;
+  font-family: "Roboto";
+}
+
+.enemy_sub_name_gu {
+  font-size: 1em;
+  color: white;
+  font-family: "Roboto";
+}
+
+.enemy_health_gu {
+  width: 80%;
+  height: 10px;
+  margin: auto;
+  font-family: "Roboto";
+}
+
+.enemy_health_value_gu {
+  width: 100%;
+  height: 10px;
+  background-color: red;
+  margin-left: 0;
+
+  font-family: "Roboto";
+}
+
+.enemy_level_gu {
+  color: white;
+  font-size: 1em;
+  padding: 0px;
+  margin: auto;
+  font-family: "Roboto";
+}
+
+.player_info_gu {
+  text-align: center;
+  width: 30vw;
+  margin: auto;
+  bottom: 50px;
+  right: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+}
+
+.player_health_gu {
+  width: 80%;
+  height: 10px;
+  background-color: #1f2428;
+  background-image: url("../img/BarV1_ProgressBarBorder.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  margin: auto;
+}
+
+.player_health_value_gu {
+  width: 100%;
+  height: 10px;
+  background-color: green;
+  margin-left: 0;
+  padding: auto;
+}
+
+.player_level_gu {
+  color: white;
+  font-size: 1em;
+  padding: 0px;
+  margin: auto;
+  font-family: "Roboto";
+}
+
+.quest_gu {
+  width: 30vw;
+  margin: auto;
+  bottom: 0;
+  top: 100px;
+  left: 0;
+  position: absolute;
+  display: flex;
+}
+
+.quest_image_gu {
+  height: 30px;
+  width: auto;
+  margin-left: 10px;
+}
+
+.quest_name_gu {
+  color: white;
+  font-weight: bold;
+  font-size: 1.25em;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  font-family: "Roboto";
+}
+
+.quest_distance_gu {
+  color: yellow;
+  font-weight: bold;
+  font-size: 1em;
+  padding-top: 4px;
+  padding-left: 10px;
+  font-family: "Roboto";
+}
+
+* {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: 0;
+  padding: 0;
+}
+
+.disable {
+  display: none;
+}
