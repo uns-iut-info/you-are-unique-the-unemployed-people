@@ -44,7 +44,7 @@ export class MissionManager {
             this._pathMeshLifetime += deltaTime;
 
             if (this._pathMeshLifetime > 1000) {
-                this._pathMesh.dispose();
+                this._pathMesh?.dispose();
                 this._pathMesh = null;
                 this._pathMeshLifetime = 0;
 
@@ -131,7 +131,7 @@ export class MissionManager {
                 points: paths,
                 dashSize: 2,
                 gapSize: 2,
-                
+
             });
 
             pathMesh.isVisible = true;

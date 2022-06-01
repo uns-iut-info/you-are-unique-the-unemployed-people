@@ -41,7 +41,7 @@ export class DungeonScene extends BaseScene {
     GameUi.createUi();
     GameUi.questEnabled(false);
     GameUi.getGameOverButton().onclick = () => {
-        SceneManager.load(MainMenuScene);
+      SceneManager.load(MainMenuScene);
     };
 
     await new SeedSceneLoader(this, this._file).task;
@@ -53,9 +53,14 @@ export class DungeonScene extends BaseScene {
 
   protected onPortalEnter(portal: AnchorPortalAttribute): void {
     if (portal.isDungeon) {
-        SceneManager.loadWithArgs<DungeonScene>(DungeonScene, portal.file);
+      SceneManager.loadWithArgs<DungeonScene>(DungeonScene, portal.file);
     } else {
-        SceneManager.loadWithArgs<WorldScene>(WorldScene, portal.file);
+      SceneManager.loadWithArgs<WorldScene>(WorldScene, portal.file);
     }
+  }
+
+  public dispose(): void {
+    super.dispose();
+    GameUi.dispose();
   }
 }

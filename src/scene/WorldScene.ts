@@ -60,6 +60,7 @@ export class WorldScene extends BaseScene {
     }
 
     public dispose(): void {
+        super.dispose();
         GameUi.dispose();
     }
 

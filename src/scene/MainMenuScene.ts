@@ -2,6 +2,7 @@ import { FreeCamera, Vector3 } from "@babylonjs/core";
 import { App } from "../app";
 import { MainMenu } from "../ui/MainMenu";
 import { BaseScene } from "./BaseScene";
+import { DungeonScene } from "./DungeonScene";
 import { SceneManager } from "./SceneManager";
 import { SceneType } from "./SceneType";
 import { WorldScene } from "./WorldScene";

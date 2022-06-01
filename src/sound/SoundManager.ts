@@ -16,6 +16,13 @@ export class SoundManager {
         this._currentAmbientSound = null;
     }
 
+    public dispose() {
+        this._ambientSounds.forEach(sound => {
+            sound.stop();
+            sound.dispose();
+        });
+    }
+
     public addSound(data: ISoundData) {
         const sound = new Sound(data.name, './sound/' + data.name, this._scene, () => {
             sound.setVolume(data.volume);
@@ -32,7 +39,7 @@ export class SoundManager {
 
     public playSound(name: string, volume: number) {
         console.log('play sound: ' + name);
-        
+
         const sound = new Sound(name, './sound/' + name, this._scene, () => {
             sound.setVolume(volume);
             sound.play();

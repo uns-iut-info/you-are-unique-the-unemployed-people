@@ -59,7 +59,7 @@ export class App {
     //@ts-ignore
     await Recast();
 
-    await SceneManager.load(DungeonScene);
+    await SceneManager.load(MainMenuScene);
 
     // await SceneManager.load(TestDungeonScene);
 

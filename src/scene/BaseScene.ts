@@ -207,5 +207,11 @@ export abstract class BaseScene extends Scene {
     return this.gameObjects.find((gameObject) => gameObject.metadata?.export === name);
   }
 
+  dispose(): void {
+    super.dispose();
+
+    this._soundManager.dispose();
+  }
+
   public abstract get sceneType(): SceneType;
 }

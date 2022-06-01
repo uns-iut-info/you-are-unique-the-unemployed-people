@@ -63,11 +63,13 @@ export class SeedSceneLoader {
 
         const sceneData: ISceneData = await FileUtils.loadFile(this._file);
         const terrainData: ISceneTerrainData = sceneData.terrain;
+        let terrainNavigationTask;
 
-        if (terrainData) this._loadTerrain(terrainData);
-
-        await this._assetManager.loadAsync();
-        const navigationTask = this._scene.enableNavigationPlugin();
+        if (terrainData) {
+            this._loadTerrain(terrainData);
+            await this._assetManager.loadAsync();
+            terrainNavigationTask = this._scene.enableNavigationPlugin();
+        }
 
         for (const objectName of new Set(
             sceneData.objData.map((data) => data.name)
@@ -88,7 +90,11 @@ export class SeedSceneLoader {
             this._loadAnchor(anchorData);
         }
 
-        await navigationTask;
+        if (terrainNavigationTask) {
+            await terrainNavigationTask;
+        } else {
+            await this._scene.enableNavigationPlugin();
+        }
 
         if (sceneData.monsters !== undefined)
             for (const monsterData of sceneData.monsters) {
@@ -314,7 +320,7 @@ export class SeedSceneLoader {
                 type = SoundType.Ambient;
                 break;
         }
-        
+
         this._scene.soundManager.addSound({
             name: name,
             volume: volume,
@@ -356,6 +362,7 @@ export class SeedSceneLoader {
         mesh.metadata = { role: "collider" };
         mesh.checkCollisions = true;
         mesh.isPickable = true;
+        mesh.isVisible = false;
 
         mesh.parent = parent;
     }

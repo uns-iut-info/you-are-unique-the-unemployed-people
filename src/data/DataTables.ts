@@ -407,6 +407,24 @@ export class DataTables {
         "start_13": new GoToAnchorPointMissionData(SceneType.World, 'portal_enter_point', 'Aller au portail.', 'start_14'),
 
         "start_14": new TransitionMissionData(SceneType.Dungeon, 'Entrer dans le portail. (touche \'E\')', 'start_15'),
+    
+        "start_15": new TextMissionData(SceneType.Dungeon, '<Vous>: (Hurm...)', 1500, 'start_16'),
+        "start_16": new TextMissionData(SceneType.Dungeon, '<Vous>: (Cet endroit ne me dit rien qui vaille...)', 2500, 'start_17'),
+        "start_17": new TextMissionData(SceneType.Dungeon, '', 1000, 'start_18'),
+        "start_18": new TextMissionData(SceneType.Dungeon, '<Vous>: (Une force démoniaque semble émaner de la pièce d\'en face)', 4000, 'start_19'),
+
+        "start_19": new GoToAnchorPointMissionData(SceneType.Dungeon, 'monster_point', 'Aller voir ce qu\il se passe.', 'start_20'),
+        "start_20": new TextMissionData(SceneType.Dungeon, '<Vous>: (Je vois un Monstre !)', 1500, 'start_21'),
+
+        "start_21": new KillMonsterMissionData(SceneType.Dungeon, 'mission_monster', 'Tuer la reine des fleurs (touche \'A\')', 'start_22'),
+
+        "start_22": new TextMissionData(SceneType.Dungeon, '<Vous>: (Toujours personne ici)', 2000, 'start_23'),
+        "start_23": new TextMissionData(SceneType.Dungeon, '<Vous>: (J\'espère qu\'ils ont pu échapper aux monstres...)', 4000, "start_24"),
+
+        "start_24": new GoToAnchorPointMissionData(SceneType.Dungeon, 'exit_point', 'Quitter le portail.', 'start_25'),
+        "start_25": new TransitionMissionData(SceneType.World, 'Quitter le portail.', 'start_26'),
+
+        "start_26": new TextMissionData(SceneType.World, 'A suivre....', 30000, "start"),
     }
 }
 
