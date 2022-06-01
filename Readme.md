@@ -12,7 +12,7 @@ La première version était un prototype qui nous a permis de nous familiariser 
 
 Nous avons alors commencé à travailler sur une nouvelle version du jeu à partir de mars : moins ambitieuse, mais plus réalisable. Cette version faisait l'impasse de la partie multijoueur et le multivers. Seulement, après plusieurs mois de travail (mars à fin avril), travailler avec Unity pour la partie édition nous faisait perdre beaucoup de temps. Le rendu n'était pas à la hauteur de nos attentes, et nous perdions beaucoup de temps à générer le rendu web du projet (exportation Unity -> BabylonJS). Nous avons alors décidé de réaliser une nouvelle version sans Unity.
 
-Cette nouvelle et dernière version est la version que nous présentons au concours de jeu vidéo. Elle a été réalisé en un peu moins d'un mois et est loin de nos attentes initiales. Plusieurs éléments de gameplay sont manquants (comme l'inventaire) mais il comporte les fonctionnalités de base : bouger, attaquer, IA de monstre, donjon, monde ouvert et le début de l'histoire.
+Cette nouvelle et dernière version est la version que nous présentons au concours de jeu vidéo. Elle a été réalisé en un peu moins d'un mois et est loin de nos attentes initiales. Plusieurs éléments de gameplay sont manquants (comme l'inventaire) mais les fonctionnalités coeur du jeu sont présentes : bouger, attaquer, IA de monstre, donjon, monde ouvert et le début de l'histoire.
 
 # Accès au site
 Le jeu est hébergé en ligne sur l'adresse suivante : https://games.notworking.ovh/ (version 3)
